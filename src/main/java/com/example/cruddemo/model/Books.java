@@ -1,7 +1,9 @@
 package com.example.cruddemo.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.CollectionId;
 
@@ -11,6 +13,8 @@ import static jakarta.persistence.GenerationType.TABLE;
 @Table
 @Setter
 @Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Books {
     @Id
     @Column

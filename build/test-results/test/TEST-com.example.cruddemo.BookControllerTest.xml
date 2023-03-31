@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cruddemo.BookControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-29T15:48:47" hostname="ashraful-ThinkPad-T460s" time="0.314">
+  <properties/>
+  <testcase name="testGetAllBooks()" classname="com.example.cruddemo.BookControllerTest" time="0.272"/>
+  <testcase name="testGetById()" classname="com.example.cruddemo.BookControllerTest" time="0.038"/>
+  <system-out><![CDATA[16:48:44.667 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [BookControllerTest]: using SpringBootContextLoader
+16:48:44.677 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.example.cruddemo.BookControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:48:44.678 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cruddemo.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:48:44.748 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper -- Using ContextCustomizers for test class [BookControllerTest]: [DisableAutoConfigurationContextCustomizer, DisableObservabilityContextCustomizer, TypeExcludeFiltersContextCustomizer, PropertyMappingContextCustomizer, Customizer, ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer]
+16:48:44.850 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/opt/user/ashraful.islam/pondit/spring-boot-crud-project/build/classes/java/main/com/example/cruddemo/CrudDemoApplication.class]
+16:48:44.852 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cruddemo.CrudDemoApplication for test class com.example.cruddemo.BookControllerTest
+16:48:44.880 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper -- Using TestExecutionListeners for test class [BookControllerTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+16:48:44.883 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [BookControllerTest], class annotated with @DirtiesContext [false] with mode [null]
+16:48:45.596 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener -- Performing dependency injection for test class com.example.cruddemo.BookControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2023-03-29T16:48:46.168+01:00  INFO 82779 --- [    Test worker] c.example.cruddemo.BookControllerTest    : Starting BookControllerTest using Java 17.0.1 with PID 82779 (started by ashraful in /opt/user/ashraful.islam/pondit/spring-boot-crud-project)
+2023-03-29T16:48:46.171+01:00  INFO 82779 --- [    Test worker] c.example.cruddemo.BookControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T16:48:47.592+01:00  INFO 82779 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-03-29T16:48:47.593+01:00  INFO 82779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-29T16:48:47.599+01:00  INFO 82779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-03-29T16:48:47.636+01:00  INFO 82779 --- [    Test worker] c.example.cruddemo.BookControllerTest    : Started BookControllerTest in 1.982 seconds (process running for 4.351)
+2023-03-29T16:48:47.678+01:00  INFO 82779 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-03-29T16:48:47.678+01:00  INFO 82779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-29T16:48:47.682+01:00  INFO 82779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2023-03-29T16:48:47.933+01:00  INFO 82779 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-03-29T16:48:47.934+01:00  INFO 82779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-29T16:48:47.935+01:00  INFO 82779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,13 +1,15 @@
 package com.example.cruddemo.service;
 
 import com.example.cruddemo.model.Books;
+import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 
+
 public interface BookService {
-    public List<Books> getAllBooks();
-    public Books getById(Integer Id);
-    public void save(Books books);
-    public void update(Books books);
-    public void delete(Integer Id);
+    List<Books> getAllBooks();
+    Books getById(Integer Id);
+    void save(Books books);
+    void update(Books books);
+    void delete(Integer Id);
 }

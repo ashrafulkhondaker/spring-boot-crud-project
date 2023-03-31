@@ -2,12 +2,17 @@ package com.example.cruddemo.controller;
 
 import com.example.cruddemo.model.Books;
 import com.example.cruddemo.service.BookService;
+import jdk.jfr.ContentType;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@NoArgsConstructor
 @AllArgsConstructor
 public class BookController {
 
